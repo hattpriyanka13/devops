@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('ScriptTest') {
       steps {
-        echo 'hello'
-        echo 'hiiii'
+        echo 'hi blue ocean'
       }
     }
 
