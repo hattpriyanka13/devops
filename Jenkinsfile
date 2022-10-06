@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('scripttes2') {
+      steps {
+        sh 'echo "Hello bluee"'
+      }
+    }
+
   }
 }
